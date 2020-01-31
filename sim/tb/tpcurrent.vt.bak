@@ -1,0 +1,87 @@
+// Copyright (C) 1991-2013 Altera Corporation
+// Your use of Altera Corporation's design tools, logic functions 
+// and other software and tools, and its AMPP partner logic 
+// functions, and any output files from any of the foregoing 
+// (including device programming or simulation files), and any 
+// associated documentation or information are expressly subject 
+// to the terms and conditions of the Altera Program License 
+// Subscription Agreement, Altera MegaCore Function License 
+// Agreement, or other applicable license agreement, including, 
+// without limitation, that your use is for the sole purpose of 
+// programming logic devices manufactured by Altera and sold by 
+// Altera or its authorized distributors.  Please refer to the 
+// applicable agreement for further details.
+
+// *****************************************************************************
+// This file contains a Verilog test bench template that is freely editable to  
+// suit user's needs .Comments are provided in each section to help the user    
+// fill out necessary details.                                                  
+// *****************************************************************************
+// Generated on "01/30/2020 21:05:17"
+                                                                                
+// Verilog Test Bench template for design : tpcurrent
+// 
+// Simulation tool : ModelSim (Verilog)
+// 
+
+`timescale 1 ns/ 1 ps
+module tpcurrent_vlg_tst();
+// constants                                           
+// general purpose registers
+reg eachvec;
+// test vector input registers
+reg [15:0] treg_adcdata;
+reg command;
+reg treg_drdy_n;
+reg rsn_t;
+reg rx_data;
+reg sys_clk50;
+// wires                                               
+wire [15:0]  adcdata;
+wire cs_n;
+wire dac_clk;
+wire [13:0]  dac_data;
+wire drdy_n;
+wire [15:0]  o_fifo;
+wire r_n_w;
+wire rest_n;
+wire tx_data;
+
+// assign statements (if any)                          
+assign adcdata = treg_adcdata;
+assign drdy_n = treg_drdy_n;
+tpcurrent i1 (
+// port map - connection between master ports and signals/registers   
+	.adcdata(adcdata),
+	.command(command),
+	.cs_n(cs_n),
+	.dac_clk(dac_clk),
+	.dac_data(dac_data),
+	.drdy_n(drdy_n),
+	.o_fifo(o_fifo), 
+	.r_n_w(r_n_w),
+	.rest_n(rest_n),
+	.rsn_t(rsn_t),
+	.rx_data(rx_data),
+	.sys_clk50(sys_clk50),
+	.tx_data(tx_data)
+);
+initial                                                
+begin                                                  
+cs_n = 1'b1;
+r_n_w = 1'b1;
+treg_adcdata = 16'd0;
+command = 1'b1;
+
+sys_clk50 = 1'b0;
+rsn_t = 1'b0;
+#5 rsn_t = 1'b1;	
+										
+$display("Running testbench");   
+#1000 $stop;             
+end   
+                                                 
+always #10 sys_clk50 = ~sys_clk50;
+                                                                                                           
+endmodule
+

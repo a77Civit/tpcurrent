@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<preferences>
+ <debug showDebugMenu="0" />
+ <systemtable>
+  <columns>
+   <connections preferredWidth="127" />
+   <irq preferredWidth="34" />
+   <name preferredWidth="290" />
+  </columns>
+ </systemtable>
+ <clocktable>
+  <columns>
+   <clockname preferredWidth="109" />
+   <clocksource preferredWidth="109" />
+   <frequency preferredWidth="102" />
+  </columns>
+ </clocktable>
+ <window width="978" height="1048" x="951" y="-9" />
+ <library
+   expandedCategories="Project,Library,Library/Interface Protocols/Serial,Library/Interface Protocols" />
+ <generation path="E:/FPGAProgramm/tpcurrent/qsys/hardware" />
+ <hdlexample language="VERILOG" />
+</preferences>

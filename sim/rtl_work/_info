@@ -1,0 +1,124 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dE:/FPGAProgramm/tpcurrent/sim
+T_opt
+!s110 1580407084
+VB_mV=@;1jzKTLD@FNVKdS0
+04 17 4 work tpcurrent_vlg_tst fast 0
+=1-00e04c71c5d3-5e33192c-207-5a8
+o-quiet -auto_acc_if_foreign -work work -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work +acc
+n@_opt
+OL;O;10.4;61
+vAD7760
+Z1 !s110 1580407083
+!i10b 1
+!s100 h@V:YH>GgQQ[bLRbh9cJS1
+IzNFiGD[ahG^oz@T5VOZYQ2
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1580406604
+8E:/FPGAProgramm/tpcurrent/rtl/AD7760.v
+FE:/FPGAProgramm/tpcurrent/rtl/AD7760.v
+L0 8
+Z3 OL;L;10.4;61
+r1
+!s85 0
+31
+!s108 1580407083.753000
+!s107 E:/FPGAProgramm/tpcurrent/rtl/AD7760.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/FPGAProgramm/tpcurrent/rtl|E:/FPGAProgramm/tpcurrent/rtl/AD7760.v|
+!i113 0
+Z4 o-vlog01compat -work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z5 !s92 -vlog01compat -work work +incdir+E:/FPGAProgramm/tpcurrent/rtl -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+n@a@d7760
+vpll_clk100
+R1
+!i10b 1
+!s100 @:KKlEPY84:B3ljP3]4bS2
+I5S>:l]ZV89o^9^^72ghFe3
+R2
+R0
+w1580394465
+8E:/FPGAProgramm/tpcurrent/par/ipcore/pll_clk100.v
+FE:/FPGAProgramm/tpcurrent/par/ipcore/pll_clk100.v
+L0 39
+R3
+r1
+!s85 0
+31
+!s108 1580407083.533000
+!s107 E:/FPGAProgramm/tpcurrent/par/ipcore/pll_clk100.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/FPGAProgramm/tpcurrent/par/ipcore|E:/FPGAProgramm/tpcurrent/par/ipcore/pll_clk100.v|
+!i113 0
+R4
+!s92 -vlog01compat -work work +incdir+E:/FPGAProgramm/tpcurrent/par/ipcore -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+vpll_clk100_altpll
+R1
+!i10b 1
+!s100 3zMh7aY=S6Jj]:O>W>hVH2
+I`:Sf3`;J:^aide[Zm9GIM2
+R2
+R0
+w1580394185
+8E:/FPGAProgramm/tpcurrent/par/db/pll_clk100_altpll.v
+FE:/FPGAProgramm/tpcurrent/par/db/pll_clk100_altpll.v
+L0 29
+R3
+r1
+!s85 0
+31
+!s108 1580407083.863000
+!s107 E:/FPGAProgramm/tpcurrent/par/db/pll_clk100_altpll.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/FPGAProgramm/tpcurrent/par/db|E:/FPGAProgramm/tpcurrent/par/db/pll_clk100_altpll.v|
+!i113 0
+R4
+!s92 -vlog01compat -work work +incdir+E:/FPGAProgramm/tpcurrent/par/db -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+vtpcurrent
+R1
+!i10b 1
+!s100 GzAiNJ1zKOI2loAb?_kO@0
+InW]LRFl0]mi;^6J`IC6SA1
+R2
+R0
+w1580401344
+8E:/FPGAProgramm/tpcurrent/rtl/tpcurrent.v
+FE:/FPGAProgramm/tpcurrent/rtl/tpcurrent.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1580407083.648000
+!s107 E:/FPGAProgramm/tpcurrent/rtl/tpcurrent.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/FPGAProgramm/tpcurrent/rtl|E:/FPGAProgramm/tpcurrent/rtl/tpcurrent.v|
+!i113 0
+R4
+R5
+vtpcurrent_vlg_tst
+R1
+!i10b 1
+!s100 nd`?a?[aT`E`JKmf9g2]F0
+IlBj3DLE5NCnCS1CNI=eO]0
+R2
+R0
+w1580403698
+8E:/FPGAProgramm/tpcurrent/par/../sim/tb/tpcurrent.vt
+FE:/FPGAProgramm/tpcurrent/par/../sim/tb/tpcurrent.vt
+L0 28
+R3
+r1
+!s85 0
+31
+!s108 1580407083.978000
+!s107 E:/FPGAProgramm/tpcurrent/par/../sim/tb/tpcurrent.vt|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/FPGAProgramm/tpcurrent/par/../sim/tb|E:/FPGAProgramm/tpcurrent/par/../sim/tb/tpcurrent.vt|
+!i113 0
+R4
+!s92 -vlog01compat -work work +incdir+E:/FPGAProgramm/tpcurrent/par/../sim/tb -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact

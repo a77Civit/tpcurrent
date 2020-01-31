@@ -1,0 +1,12 @@
+/*
+用新起点开发板
+*/
+module (
+	input clk,
+	input rst_n,
+	
+	input 
+)
+
+
+endmodule

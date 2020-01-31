@@ -1,0 +1,26 @@
+module tpcurrent(
+    input sys_clk50,
+    input rsn_t
+);
+
+wire sys_clk100; //Qsys系统时钟，100Mhz 
+wire lockflag;
+
+pll_clk100	u_pll_clk100 (
+	.areset ( ~rsn_t ),
+	.inclk0 ( sys_clk50 ),
+	.c0 ( sys_clk100 ),
+	.locked ( lockflag )
+	);
+
+//qsys例化
+    system_qsys u0 (
+        .clk_clk       (sys_clk100),       //   clk.clk
+        .reset_reset_n (rsn_t)  // reset.reset_n
+    );
+
+
+
+
+
+endmodule

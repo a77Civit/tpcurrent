@@ -1,0 +1,31 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dE:/FPGAProgramm/tpcurrent/par/simulation/modelsim
+vpll_clk100
+!s110 1580388919
+!i10b 1
+!s100 @:KKlEPY84:B3ljP3]4bS2
+I5S>:l]ZV89o^9^^72ghFe3
+VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1580374424
+8E:/FPGAProgramm/tpcurrent/par/ipcore/pll_clk100.v
+FE:/FPGAProgramm/tpcurrent/par/ipcore/pll_clk100.v
+L0 39
+OL;L;10.4;61
+r1
+!s85 0
+31
+!s108 1580388919.527000
+!s107 E:/FPGAProgramm/tpcurrent/par/ipcore/pll_clk100.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/FPGAProgramm/tpcurrent/par/ipcore|E:/FPGAProgramm/tpcurrent/par/ipcore/pll_clk100.v|
+!i113 0
+o-vlog01compat -work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+!s92 -vlog01compat -work work +incdir+E:/FPGAProgramm/tpcurrent/par/ipcore -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
